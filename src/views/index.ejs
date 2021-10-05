@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Inicio de la plataforma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="/" class="navbar-brand">Veterinaria</a>
+    </nav>
+    <div class="container">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/add" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="Nombre" placeholder="Nombre de la mascota" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="Tipo_Mascota" placeholder="Tipo de mascota" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="Sexo" placeholder="Sexo" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="Edad" placeholder="Edad" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="Peso_Kg" placeholder="Peso en Kg" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="Raza" placeholder="Raza" class="form-control">
+                        </div>
+                        <button class="btn btn-primary">Registrar</button>
+                    </form>
+                </div>
+            </div>
+            <h1>Hola</h1>
+        </div>
+        <div class="col-md-5"></div>
+
+    </div>
+</body>
+</html>
